@@ -1,0 +1,17 @@
+ 
+
+  
+
+ vous devez travailler avec la librairie : ionicons 
+ 
+ police : Lato, sans-serif  
+
+
+ critères d'évaluation : 
+  
+  - respect de la maquette originale 
+  - la maquette doit etre responsive 
+  - la bonne structure du code 
+  
+  
+  

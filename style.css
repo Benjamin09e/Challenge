@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.head-page {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background: url(./images/hero.jpg) no-repeat center center/cover;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.head-title {
+  margin-left: 100px;
+  color: white;
+}
+
+.btn-title {
+  font-size: large;
+  text-align: center;
+  height: 50px;
+  width: max-content;
+  border-radius: 35px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: solid orange;
+  background: orange;
+  color: white;
+}
+
+.btn-title2 {
+  font-size: large;
+  text-align: center;
+  height: 50px;
+  width: max-content;
+  border-radius: 35px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: solid orange;
+  background: none;
+  color: orange;
+}
+
+/* delirery */
+.delivery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 29px;
+}
+
+.delivery .title {
+  width: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  margin-top: 48px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0;
+  column-gap: 0px;
+  width: 100%;
+}
+
+.gallery div {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  /*margin: 5px;*/
+}
+
+/* Phone */
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.app-items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.app-items div {
+  padding: 8px;
+  height: 50vh;
+  width: 50%;
+}
+
+.iphone {
+  float: right;
+  height: 100%;
+}
+
+.part-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.part-right div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.part-right span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  font-size: large;
+  margin-right: 20px;
+  border: solid orange;
+  border-radius: 50%;
+}
+
+.donwnload-btn {
+  width: 50%;
+  right: 0;
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  padding-right: 15px;
+}
+
+/*card*/
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+/*testimonial*/
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 29px;
+  background-image: url("images/back-customers.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.picture {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.picture img {
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+/* Price */
+.price {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: column;
+  padding: 30px;
+}
+
+.cards {
+  border-radius: 10px;
+  box-shadow: 15px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.cards-top {
+  height: 107px;
+  padding: 20px;
+  background-color: rgb(230, 229, 227);
+  border-bottom: solid 1px;
+  border-radius: 10px 10px 0 0;
+}
+
+.cards-bottom {
+  height: 80px;
+  padding: 20px;
+  background-color: rgb(221, 220, 219);
+  border-top: solid 1px;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Formulaire */
+.formulaire {
+  margin: 30px;
+  width: 40%;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-left {
+  width: 30%;
+}
+
+.form-right {
+  padding: 0;
+  width: 65%;
+}
+
+.form-group div input,
+.form-group div textarea,
+.form-group div select {
+  width: 100%;
+  margin: 0;
+}
+
+.form-group div input,
+.form-group div select {
+  height: 20px;
+}
+
+.form-label {
+  display: flex;
+  justify-content: start;
+}
+
+.form-label input {
+  width: 30px !important;
+}
+
+.btn-form {
+  position: relative;
+  font-size: large;
+  text-align: center;
+  height: 40px;
+  width: max-content;
+  border-radius: 35px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: solid orange;
+  background: orange;
+  color: white;
+  margin-right: 66px;
+  bottom: 33px;
+}
+/* Footer */
+.footer {
+  height: 20vh;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  color: #808080;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: rgb(212, 202, 202);
+  text-decoration: none;
+  /* text-transform: uppercase;
+  font-size: 15px;*/
+}
+
+.footer a:hover {
+  color: #dd3a3a;
+}
+
+.foot-links {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.foot-logo {
+  display: flex;
+  padding-top: 15px;
+  margin-left: 15px;
+}
+
+.foot-logo i {
+  margin-left: 15px;
+}
+
+.foot-block {
+  display: grid;
+  text-align: center;
+}
+
+hr {
+  border: solid 1px orange;
+  width: 5%;
+  margin: 5px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+#fa-color {
+  color: orange;
+  height: 10px;
+  font-size: 33px;
+  margin-bottom: 29px;
+}
+
+.fa-description {
+  margin-left: 10px;
+  color: black;
+  text-transform: lowercase;
+}
+
+#fa-card {
+  color: orange;
+  height: 10px;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 599px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
